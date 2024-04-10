@@ -1,0 +1,17 @@
+### Find Personal Info
+GET http://localhost:8082/api/personal_info
+
+### Get Education
+GET http://localhost:8080/api/education
+
+### Get Projects
+GET http://localhost:8080/api/projects
+
+### Get Experience
+GET http://localhost:8080/api/experience
+
+### Get Comments
+GET http://localhost:8080/api/comments
+
+### Get Technical Skills
+GET http://localhost:8080/api/technical-skills

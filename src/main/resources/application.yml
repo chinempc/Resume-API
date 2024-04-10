@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: ${env.URL}
+    username: ${env.USER_NAME}
+    password: ${env.PASSWORD}
+    hikari:
+      connection-timeout: 20000
+      maximumPoolSize: 5
+    driver-class-name: ${env.DRIVER}
+  jpa:
+    properties:
+      hibernate.dialect: ${env.DIALECT}
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+springdoc:
+  swagger-ui:
+    path: /swagger
+server:
+  port: 8082
