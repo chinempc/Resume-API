@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class ContactService {
 
-    ContactRepository contactRepository;
+    private final ContactRepository contactRepository;
 
     public List<ContactDTO> getContactInfo() {
         return contactRepository.findAll()

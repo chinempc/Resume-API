@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class EducationService {
 
-    EducationRepository educationRepository;
+    private final EducationRepository educationRepository;
 
     public List<EducationDTO> getEducationInfo() {
         return educationRepository.findAll()
