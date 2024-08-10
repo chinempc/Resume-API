@@ -28,7 +28,7 @@ dependencies {
 	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0")
 	implementation("javax.annotation:javax.annotation-api:1.3.2")
 	implementation("org.json:json:20231013")
-	implementation("me.paulschwarz:spring-dotenv:2.3.0")
+	implementation("me.paulschwarz:spring-dotenv:4.0.0")
 	//developmentOnly("org.springframework.boot:spring-boot-docker-compose")
 	runtimeOnly("org.postgresql:postgresql")
 	compileOnly("org.projectlombok:lombok")
